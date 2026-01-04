@@ -1,5 +1,5 @@
 {
-  "name": "Pedro Data Analyst Portfolio",
-  "description": "A bilingual (PT/EN) personal portfolio for a Data Analyst specializing in Credit Policy, Python, and SAS.",
+  "name": "Pedro Data Portfolio (Static)",
+  "description": "A lightweight, no-build portfolio for GitHub Pages using Vanilla JS and Tailwind CSS.",
   "requestFramePermissions": []
 }

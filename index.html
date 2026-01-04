@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro | Data Analyst Portfolio</title>
+    
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -11,13 +13,13 @@
           extend: {
             colors: {
               pastel: {
-                bg: '#fbfdfc', // Very light mint/white
-                primary: '#6ee7b7', // Emerald 300
-                secondary: '#a7f3d0', // Emerald 200
-                text: '#44403c', // Stone 700
-                muted: '#78716c', // Stone 500
+                bg: '#fbfdfc', 
+                primary: '#6ee7b7', 
+                secondary: '#a7f3d0', 
+                text: '#44403c', 
+                muted: '#78716c', 
                 card: '#ffffff',
-                accent: '#059669', // Emerald 600
+                accent: '#059669', 
               }
             },
             fontFamily: {
@@ -27,29 +29,34 @@
         }
       }
     </script>
+
+    <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
     <style>
       body {
         background-color: #fbfdfc;
         color: #44403c;
         font-family: 'Inter', sans-serif;
+        overflow-x: hidden; /* Prevent horizontal scroll */
+      }
+      .fade-in {
+        animation: fadeIn 0.4s ease-out;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
-  }
-}
-</script>
 <link rel="stylesheet" href="/index.css">
 </head>
-  <body>
-    <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
+<body>
+    <!-- Main App Container -->
+    <div id="app" class="flex flex-col min-h-screen"></div>
+
+    <!-- Application Logic -->
+    <script type="module" src="./main.js"></script>
+<script type="module" src="/index.tsx"></script>
 </body>
 </html>
