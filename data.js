@@ -20,36 +20,57 @@ export const PORTUGUESE_DATA = {
     viewAll: 'Ver todos'
   },
   profile: {
-    name: 'Pedro',
+    name: 'Pedro Bento',
     role: 'Analista de Dados',
-    email: 'seu.email@exemplo.com',
-    phone: '+55 (11) 99999-9999',
-    location: 'Brasil',
+    email: 'pedro.hbs@yahoo.com',
+    phone: '+55 (41) 99106-9022',
+    location: 'Curitiba - Brasil',
     linkedin: 'https://www.linkedin.com/in/pedrohbs0/',
-    github: 'https://github.com/pedrohbs0',
+    github: 'https://github.com/pedrobento-dt',
     photoUrl: 'https://picsum.photos/400/400',
-    about: 'Tenho 25 anos e atuo como analista de dados há 3 anos com foco na área de crédito e políticas de crédito. Possuo forte experiência em construção de dashboards estratégicos, tratamento de bases complexas e análise exploratória de dados (EDA). Atualmente, estou expandindo meus conhecimentos em Ciência de Dados e Machine Learning para aplicar modelos preditivos em áreas de negócio como crédito, cobrança e marketing.',
+    about: 'Atuo como analista de dados há 3 anos com foco na área de crédito e políticas de crédito. Possuo forte experiência em construção de dashboards estratégicos, tratamento de bases complexas e análise exploratória de dados (EDA). Atualmente, estou expandindo meus conhecimentos em Ciência de Dados e Machine Learning para aplicar modelos preditivos em áreas de negócio como crédito, cobrança e marketing.',
     experiences: [
       {
-        company: 'Empresa de Crédito Financeiro',
-        period: '2021 - Atualmente',
-        role: 'Analista de Dados Pleno',
+        company: 'Mobilize Financial Services',
+        period: 'Abril - 2025 - Atualmente',
+        role: 'Analista de Crédito Pleno - Terceirizado',
         description: 'Responsável pelo desenvolvimento e manutenção de políticas de crédito. Criação de Dashboards executivos para monitoramento de carteira e safra. Automação de processos de ETL e geração de insights para mitigação de riscos.',
         tech: ['Python', 'SAS EG', 'SQL', 'Power BI', 'Excel']
       },
       {
-        company: 'Experiência Anterior',
-        period: '2019 - 2021',
-        role: 'Analista Júnior',
+        company: 'Mobilize Financial Services',
+        period: 'Novembro - 2023 - Abril - 2025',
+        role: 'Analista de Crédito Júnior - Terceirizado',
         description: 'Suporte na estruturação de dados e relatórios gerenciais.',
         tech: ['Excel', 'VBA', 'SQL']
-      }
+      },
+      {
+        company: 'Mobilize Financial Services',
+        period: 'Janeiro - 2023 - Abril - 2025',
+        role: 'Estariário de Pós-Vendas',
+        description: 'Responsável pelo desenvolvimento e manutenção de políticas de crédito. Criação de Dashboards executivos para monitoramento de carteira e safra. Automação de processos de ETL e geração de insights para mitigação de riscos.',
+        tech: ['Power BI', 'Excel']
+      },   
+      {
+        company: 'JR Consultoria UFPR',
+        period: 'Dezembro - 2021 - Dezembro - 2022',
+        role: 'Gerente de Projetos',
+        description: 'Suporte na estruturação de dados e relatórios gerenciais.',
+        tech: ['Excel', 'VBA', 'SQL']
+      },
+      {
+        company: 'JR Consultoria UFPR',
+        period: 'Junho - 2021 - Dezembro - 2021',
+        role: 'Consultor de Projetos',
+        description: 'Responsável pelo desenvolvimento e manutenção de políticas de crédito. Criação de Dashboards executivos para monitoramento de carteira e safra. Automação de processos de ETL e geração de insights para mitigação de riscos.',
+        tech: ['Power BI', 'Excel']
+      },   
     ],
     education: [
       {
-        institution: 'Universidade Exemplo',
-        degree: 'Bacharelado em Administração / Estatística / TI',
-        period: '2017 - 2021'
+        institution: 'Pontifícia Universidade Católica do Paraná',
+        degree: 'Análise e Desenvolvimento de Sistemas',
+        period: '2024 - 2026'
       }
     ],
     certifications: [
