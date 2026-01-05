@@ -72,12 +72,12 @@ const Footer = () => `
   <footer class="bg-white border-t border-stone-100 py-8 mt-auto">
     <div class="max-w-6xl mx-auto px-4 text-center">
       <div class="flex justify-center space-x-8 mb-6 text-pastel-muted">
-          <a href="https://github.com/pedrohbs0" target="_blank" class="hover:text-pastel-accent hover:-translate-y-1 transition-all"><i data-lucide="github" class="w-6 h-6"></i></a>
+          <a href="https://github.com/pedrobento-dt" target="_blank" class="hover:text-pastel-accent hover:-translate-y-1 transition-all"><i data-lucide="github" class="w-6 h-6"></i></a>
           <a href="https://www.linkedin.com/in/pedrohbs0/" target="_blank" class="hover:text-pastel-accent hover:-translate-y-1 transition-all"><i data-lucide="linkedin" class="w-6 h-6"></i></a>
-          <a href="mailto:email@example.com" class="hover:text-pastel-accent hover:-translate-y-1 transition-all"><i data-lucide="mail" class="w-6 h-6"></i></a>
+          <a href="mailto:pedro.hbs@yahoo.com" class="hover:text-pastel-accent hover:-translate-y-1 transition-all"><i data-lucide="mail" class="w-6 h-6"></i></a>
       </div>
       <p class="text-stone-400 text-xs">
-        © ${new Date().getFullYear()} Pedro Data Analyst.
+        © ${new Date().getFullYear()} Pedro Bento - Data Analyst.
       </p>
     </div>
   </footer>
@@ -151,17 +151,17 @@ const HomePage = (data) => {
          <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="group p-6 rounded-2xl hover:bg-stone-50 transition-colors">
                 <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"><i data-lucide="database"></i></div>
-                <h3 class="text-lg font-bold text-stone-800 mb-2">Data Engineering</h3>
-                <p class="text-sm text-stone-500 leading-relaxed">SQL, SAS EG, ETL Pipelines, Data Warehousing</p>
+                <h3 class="text-lg font-bold text-stone-800 mb-2">Engenharia de Dados</h3>
+                <p class="text-sm text-stone-500 leading-relaxed">SQL, SAS EG, ETL Pipelines</p>
             </div>
             <div class="group p-6 rounded-2xl hover:bg-stone-50 transition-colors">
                 <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"><i data-lucide="trending-up"></i></div>
-                <h3 class="text-lg font-bold text-stone-800 mb-2">Analytics & BI</h3>
+                <h3 class="text-lg font-bold text-stone-800 mb-2">Análise de dados</h3>
                 <p class="text-sm text-stone-500 leading-relaxed">Power BI, Credit Policy, Risk Analysis, KPIs</p>
             </div>
             <div class="group p-6 rounded-2xl hover:bg-stone-50 transition-colors">
                 <div class="w-12 h-12 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"><i data-lucide="code"></i></div>
-                <h3 class="text-lg font-bold text-stone-800 mb-2">Data Science</h3>
+                <h3 class="text-lg font-bold text-stone-800 mb-2">Ciência de dados</h3>
                 <p class="text-sm text-stone-500 leading-relaxed">Python, Pandas, Scikit-learn, Machine Learning</p>
             </div>
          </div>
