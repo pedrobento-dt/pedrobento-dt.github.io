@@ -27,40 +27,44 @@ export const PORTUGUESE_DATA = {
     location: 'Curitiba - Brasil',
     linkedin: 'https://www.linkedin.com/in/pedrohbs0/',
     github: 'https://github.com/pedrobento-dt',
-    photoUrl: 'https://picsum.photos/400/400',
+    photoUrl: 'https://media.licdn.com/dms/image/v2/D4D03AQGoNkJtGxq25Q/profile-displayphoto-shrink_200_200/B4DZc9NIBxGYAY-/0/1749078540864?e=1773878400&v=beta&t=-4iZyd8eSn5odekhaiCtfljBa8NbIASZipIQ-XQKReE',
     about: 'Atuo como analista de dados há 3 anos com foco na área de crédito e políticas de crédito. Possuo forte experiência em construção de dashboards estratégicos, tratamento de bases complexas e análise exploratória de dados (EDA). Atualmente, estou expandindo meus conhecimentos em Ciência de Dados e Machine Learning para aplicar modelos preditivos em áreas de negócio como crédito, cobrança e marketing.',
     experiences: [
       {
         company: 'Mobilize Financial Services',
-        period: 'Abril - 2025 - Atualmente',
+        period: 'Abr/2025 - Atualmente',
         role: 'Analista de Crédito Pleno - Terceirizado',
-        description: 'Responsável pelo desenvolvimento e manutenção de políticas de crédito. Criação de Dashboards executivos para monitoramento de carteira e safra. Automação de processos de ETL e geração de insights para mitigação de riscos.',
-        tech: ['Python', 'SAS EG', 'SQL', 'Power BI', 'Excel']
+        description: '- Condução de estudos que identificaram novas oportunidades e otimizaram a política de crédito;\n' +
+            '- Manutenção da política de crédito PF e PJ no motor de crédito da Neurotech, com foco em manutenções evolutivas e corretivas;\n' +
+            '- Implementação da biometria facial no processo de formalização\n' +
+            '- Criação dos procedimentos de aceitação;\n' +
+            '- Criação e manutenção de relatórios de monitoramento da esteira de crédito e indicadores de inadimplência de safra, utilizando Microsoft Fabric, SAS EG e Python.',
+        tech: ['Python', 'SAS EG', 'SQL', 'Power BI', 'SAS Miner','Excel']
       },
       {
         company: 'Mobilize Financial Services',
-        period: 'Novembro - 2023 - Abril - 2025',
+        period: 'Nov/2023 - Abr/2025',
         role: 'Analista de Crédito Júnior - Terceirizado',
-        description: 'Suporte na estruturação de dados e relatórios gerenciais.',
-        tech: ['Excel', 'VBA', 'SQL']
+        description: 'Iniciei como analista de crédito nas marcas Renault On Demand, Nissan Move e Toot. Posteriormente, atuei com inteligência de crédito, criando o indicador "time to yes", realizando manutenção de bases no SAS EG e homologando políticas no motor de crédito da Neurotech. Desenvolvi dashboards diários e mensais em Power BI para tomada de decisão da mesa de crédito.',
+        tech: ['Python', 'SAS EG', 'SQL', 'Power BI', 'Figma','Excel']
       },
       {
         company: 'Mobilize Financial Services',
-        period: 'Janeiro - 2023 - Abril - 2025',
+        period: 'Jan/2023 - Abril/2025',
         role: 'Estariário de Pós-Vendas',
         description: 'Responsável pelo desenvolvimento e manutenção de políticas de crédito. Criação de Dashboards executivos para monitoramento de carteira e safra. Automação de processos de ETL e geração de insights para mitigação de riscos.',
         tech: ['Power BI', 'Excel']
       },   
       {
         company: 'JR Consultoria UFPR',
-        period: 'Dezembro - 2021 - Dezembro - 2022',
+        period: 'Dez/2021 - Dez/2022',
         role: 'Gerente de Projetos',
         description: 'Suporte na estruturação de dados e relatórios gerenciais.',
         tech: ['Excel', 'VBA', 'SQL']
       },
       {
         company: 'JR Consultoria UFPR',
-        period: 'Junho - 2021 - Dezembro - 2021',
+        period: 'Jun/2021 - Dez/2021',
         role: 'Consultor de Projetos',
         description: 'Responsável pelo desenvolvimento e manutenção de políticas de crédito. Criação de Dashboards executivos para monitoramento de carteira e safra. Automação de processos de ETL e geração de insights para mitigação de riscos.',
         tech: ['Power BI', 'Excel']
@@ -75,12 +79,14 @@ export const PORTUGUESE_DATA = {
     ],
     certifications: [
       { name: 'Google Data Analytics', issuer: 'Coursera', year: '2023' },
-      { name: 'Power BI Data Analyst Associate', issuer: 'Microsoft', year: '2022' }
+      { name: 'Power BI Data Analyst Associate', issuer: 'Microsoft', year: '2022' },
+      { name: 'Credit Risk Modeling using SAS', issuer: 'Udemy', year: '2024'},
+      { name: 'Especialista em Microsoft Power BI', issuer: 'Linkedin', year: '2024'}
     ],
     skills: [
       {
         category: 'Plataformas',
-        items: ['Databricks', 'Google AI Studio', 'Power BI Service']
+        items: ['Databricks', 'Power BI Service', 'Figma', 'Fabric', 'Lucidchart']
       },
       {
         category: 'Linguagens & Tech',
@@ -88,10 +94,10 @@ export const PORTUGUESE_DATA = {
       },
       {
         category: 'Negócios',
-        items: ['Políticas de Crédito', 'Análise de Risco', 'KPIs Financeiros']
+        items: ['Políticas de Crédito', 'Análise de Risco', 'KPIs Financeiros', 'Criação de Procedimento Operacional']
       }
     ],
-    languages: ['Português (Nativo)', 'Inglês (Avançado)']
+    languages: ['Português (Nativo)', 'Inglês (Intermediário)']
   },
   projects: [
     {
@@ -153,14 +159,14 @@ export const ENGLISH_DATA = {
     viewAll: 'View All'
   },
   profile: {
-    name: 'Pedro',
+    name: 'Pedro Bento',
     role: 'Data Analyst',
-    email: 'your.email@example.com',
-    phone: '+55 (11) 99999-9999',
-    location: 'Brazil',
+    email: 'pedro.hbs@yahoo.com',
+    phone: '+55 (41) 99106-9022',
+    location: 'Curitiba - Brazil',
     linkedin: 'https://www.linkedin.com/in/pedrohbs0/',
-    github: 'https://github.com/pedrohbs0',
-    photoUrl: 'https://picsum.photos/400/400',
+    github: 'https://github.com/pedrobento-dt',
+    photoUrl: 'https://media.licdn.com/dms/image/v2/D4D03AQGoNkJtGxq25Q/profile-displayphoto-shrink_200_200/B4DZc9NIBxGYAY-/0/1749078540864?e=1773878400&v=beta&t=-4iZyd8eSn5odekhaiCtfljBa8NbIASZipIQ-XQKReE',
     about: 'I am 25 years old and have been working as a data analyst for 3 years, focusing on credit and credit policy areas. I have strong experience in building strategic dashboards, handling complex databases, and exploratory data analysis (EDA). I am currently expanding my knowledge in Data Science and Machine Learning to apply predictive models in business areas such as credit, collections, and marketing.',
     experiences: [
       {
@@ -180,14 +186,16 @@ export const ENGLISH_DATA = {
     ],
     education: [
       {
-        institution: 'Example University',
-        degree: 'Bachelor in Business / Statistics / IT',
-        period: '2017 - 2021'
+        institution: 'Pontifícia Universidade Católica do Paraná',
+        degree: 'Systems Development',
+        period: '2024 - 2026'
       }
     ],
     certifications: [
       { name: 'Google Data Analytics', issuer: 'Coursera', year: '2023' },
-      { name: 'Power BI Data Analyst Associate', issuer: 'Microsoft', year: '2022' }
+      { name: 'Power BI Data Analyst Associate', issuer: 'Microsoft', year: '2022' },
+      { name: 'Credit Risk Modeling using SAS', issuer: 'Udemy', year: '2024'},
+      { name: 'Power Bi Specialist', issuer: 'Linkedin', year: '2024'}
     ],
     skills: [
       {
@@ -203,7 +211,7 @@ export const ENGLISH_DATA = {
         items: ['Credit Policies', 'Risk Analysis', 'Financial KPIs']
       }
     ],
-    languages: ['Portuguese (Native)', 'English (Advanced)']
+    languages: ['Portuguese (Native)', 'English (Intermediate)']
   },
   projects: [
     {
